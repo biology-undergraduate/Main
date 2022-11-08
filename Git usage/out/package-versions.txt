@@ -1,0 +1,32 @@
+R version 4.2.1 (2022-06-23 ucrt)
+Platform: x86_64-w64-mingw32/x64 (64-bit)
+Running under: Windows Server x64 (build 14393)
+
+Matrix products: default
+
+locale:
+[1] LC_COLLATE=English_United Kingdom.1252 
+[2] LC_CTYPE=English_United Kingdom.1252   
+[3] LC_MONETARY=English_United Kingdom.1252
+[4] LC_NUMERIC=C                           
+[5] LC_TIME=English_United Kingdom.1252    
+
+attached base packages:
+[1] stats     graphics  grDevices utils     datasets  methods   base     
+
+other attached packages:
+[1] ggplot2_3.4.0
+
+loaded via a namespace (and not attached):
+ [1] pillar_1.8.1      compiler_4.2.1    tools_4.2.1       digest_0.6.29    
+ [5] lattice_0.20-45   nlme_3.1-159      evaluate_0.16     lifecycle_1.0.3  
+ [9] tibble_3.1.8      gtable_0.3.1      mgcv_1.8-40       pkgconfig_2.0.3  
+[13] rlang_1.0.6       Matrix_1.5-1      cli_3.4.1         DBI_1.1.3        
+[17] rstudioapi_0.14   yaml_2.3.5        xfun_0.33         fastmap_1.1.0    
+[21] withr_2.5.0       dplyr_1.0.10      knitr_1.40        generics_0.1.3   
+[25] fs_1.5.2          vctrs_0.5.0       systemfonts_1.0.4 grid_4.2.1       
+[29] tidyselect_1.1.2  glue_1.6.2        R6_2.5.1          textshaping_0.3.6
+[33] fansi_1.0.3       rmarkdown_2.16    farver_2.1.1      purrr_0.3.4      
+[37] magrittr_2.0.3    splines_4.2.1     scales_1.2.1      htmltools_0.5.3  
+[41] rsconnect_0.8.27  assertthat_0.2.1  colorspace_2.0-3  labeling_0.4.2   
+[45] ragg_1.2.3        utf8_1.2.2        munsell_0.5.0    
