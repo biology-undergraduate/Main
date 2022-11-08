@@ -1,6 +1,6 @@
 library(ggplot2)
 
-sods_data <- read.csv("stackoverflow-git-data.csv")
+sods_data <- read.csv("out/stackoverflow-git-data.csv")
 
 g <- ggplot(
   data = sods_data,
@@ -23,6 +23,10 @@ ggsave(filename = "git-usage.png",
        width = 10.5,
        units = "cm")
 
-sink(file = "regression-summary.txt")
+sink(file = "out/regression-summary.txt")
 summary(lm(percentage ~ year, data = sods_data))
+sink()
+
+sink(file = "out/package-versions.txt")
+sessionInfo()
 sink()
