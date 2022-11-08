@@ -1,6 +1,6 @@
 library(ggplot2)
 
-sods_data <- read.csv("out/stackoverflow-git-data.csv")
+sods_data <- read.csv("data/stackoverflow-git-data.csv")
 
 g <- ggplot(
   data = sods_data,
@@ -17,8 +17,8 @@ g <- ggplot(
     y = "Percentage who used git") +
   ylim(c(0,100)) +
   theme_bw()
-    
-ggsave(filename = "git-usage.png",
+
+ggsave(filename = "out/git-usage.png",
        plot = g,
        height = 7.4,
        width = 10.5,
