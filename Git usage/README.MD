@@ -1,4 +1,4 @@
-This specific repository contains the analysis of git usage through time andcan be run using the command:
+This specific repository contains the analysis of git usage through time and can be run using the command:
 
 ```
 
